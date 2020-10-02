@@ -1,0 +1,445 @@
+/* font-family: 'Mulish', sans-serif; */
+/* font-family: 'Marck Script', cursive; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  .sideIconsWrapperMobile{
+    display: none;
+  }
+ 
+  
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+  }
+.container{
+    max-width: 1280px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.topButtonLogo__Wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topButtons__Wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.listButtons{
+    position: relative;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.48px;
+color: #111111;
+
+}
+
+.log-in,
+.sign-up{
+    display:inline-block;
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #111111;
+/* identical to box height */
+
+text-align: center;
+
+color: #111111;
+cursor:pointer;
+
+width: 118px;
+height: 50px;
+background-color: transparent;
+border-style: none;
+outline: none;
+margin-bottom: 20px;
+
+}
+
+.log-in:hover,
+.sign-up:hover{
+    border-radius: 5px;
+    background-color:#FF614A;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.logoThinPart{
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.48px;
+
+color: #111111;
+}
+
+.sideIcons__container{
+    padding: 0px 20px;
+}
+
+
+.mainSectionPicture{
+    background-image: url(./Bitmap.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 810px;
+}
+
+
+
+.sideIconsHeader{
+  font-family: 'Marck Script', cursive;
+  color: #FF614A;
+  font-size: 80px;
+line-height: 94px;
+text-align: center;
+letter-spacing: 1.6px;
+
+}
+
+.sideIconsSubHeader{
+  font-family: '', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.4px;
+  
+  color: #252833;
+  margin-bottom: 34px;
+  
+}
+
+.sideIconsWrapper {
+    position: fixed;
+    transform: translate(0, -50%);
+    top: 50%;
+    transition: 0.3s;
+    border-radius: 20px;
+
+}
+
+
+.sideIcons{
+
+position:relative;
+max-width: 393px;
+height: 576px;
+background: rgba(255, 255, 255, 0.5);
+backdrop-filter: blur(10.8731px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+
+.icon {
+    background-image: url(./icons/lock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    margin-top: -20px;
+    margin-left: 38px;
+    position: absolute;
+    top: 50%;
+    transform: translate(10px, 10px);
+    z-index: 1;
+}
+
+.lock {
+  background-image: url(./icons/lock.svg);
+}
+
+.instagram{
+  background-image: url(./icons/instagram.svg);  
+}
+
+.youtube{
+  background-image: url(./icons/youtube.svg);
+}
+
+.tiktok{
+  background-image: url(./icons/tik-tok.png);
+}
+
+.workout{
+  background-image: url(./icons/diet.svg);
+}
+
+.facebook{
+  background-image: url(./icons/facebook.svg);
+}
+
+
+
+.sideIcons__link{
+    transition: 0.3s;
+display:block;
+    width: 327px;
+height: 52px;
+background: rgba(255, 255, 255, 0.5);
+border: 1px solid rgba(255, 255, 255, 0.6);
+box-sizing: border-box;
+backdrop-filter: blur(27.1828px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 6px;
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 16px;
+/* identical to box height, or 107% */
+
+text-align: center;
+
+color: #111111;
+margin-bottom: 16px;
+padding-top: 18px;
+
+
+}
+
+
+
+.footerText{
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+text-align: center;
+margin: 17px 0px 17px 0px;
+
+
+color: #252833;
+}
+
+@media (max-width: 396px){
+    .sideIcons__link{
+        width: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .sideIconsWrapper {
+        top: 105%;
+        width: 100%;
+        background-color: white;
+    }
+
+
+
+    .icon {
+        position: relative;
+
+        margin-left: 0px;
+
+    }
+
+    .iconActive{
+        position: absolute;
+    }
+
+    .sideIcons__container {
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .listButtons {
+        position: relative;
+
+    }
+
+  .sideIconsWrapperMobile{
+    display: block;
+  }
+  .logo{
+    font-family: 'Mulish', sans-serif;    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.48px;
+    margin: 0 auto;
+    color: #252833;
+    margin-top: 35px;
+    margin-bottom: 14px;
+
+    
+     }
+    
+     .logoThinPart{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 30px;
+        
+     }
+    
+     .container{
+        max-width: 375px;
+         padding: 0;
+        margin: 0 auto;
+     }
+     .mainSectionPicture{
+     background-image: url(pic.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 100%;
+     height: 733px;
+    }
+    
+    .sideIconsWrapperMobile{
+        padding-top: 600px;
+    }
+    
+    .sideIconsTitlesMobile{
+    height: 133px;
+    background-color: #fff;
+    border-radius: 10px;
+    }
+    
+    .sideIconsHeaderMobile{
+        font-family: 'Marck Script', cursive;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    
+    color: #FF614A;
+    }
+    
+    .sideIconsSubHeader__wrapperMobile{
+        font-family:'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.4px;
+    
+    color: #252833;
+    
+    }
+    
+    
+    .sideIcons{
+
+        width: 100%;
+        position:relative;
+        max-width: 393px;
+        height: 576px;
+
+        /* Note: backdrop-filter has minimal browser support */
+        
+
+        }
+
+    .sideIcons__link {
+        display: none;
+        max-width: 327px;
+        width: 100%;
+        height: 52px;
+        background: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        box-sizing: border-box;
+
+        border-radius: 6px;
+        font-family: 'Mulish', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 16px;
+        text-align: center;
+        color: #111111;
+        margin-bottom: 16px;
+        /* margin-left: 33px; */
+        padding-top: 18px;
+    }
+
+    .activeWrap{
+        top: 58%;
+        background: rgba(255, 255, 255, 0.1);
+
+    }
+
+    .sideIcons__container-active{
+        display: block;
+    }
+    .linkShow{
+        display: block;
+    }
+
+        .log-in, .sign-up{
+          display:none;
+        }
+
+}
+
